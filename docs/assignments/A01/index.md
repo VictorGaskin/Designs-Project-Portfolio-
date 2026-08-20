@@ -46,6 +46,66 @@ d. **Professional Tone:**
 Portfolio B exhibited a technical, concise tone throughout. It did accomplish the earlier defined definition of professional. 
 
 ## PART B: PRODUCT ANALYSIS 
+Patent Utilized: 
+https://patents.google.com/patent/USD665246S1/en?q=(clothespin)&oq=clothespin
+https://patentimages.storage.googleapis.com/95/5d/88/ab2fa3a7e58fd4/USD665246.pdf
+
+a. The clothespin converts an initial squeezing force into rotational motion in which the rotational motion is translated into a clamping force with an embedded spring returning to equilibrium 
+
+b. 
+### i) The relevant equations and principles needed to govern this product is as follows: 
+ 
+**Friction:**
+
+$$
+F_f = \mu N
+$$
+*μ represents coefficent of friction*
+*N represents normal force*
+  
+**Static Equilibrium:**
+
+$$
+\sum F = 0
+$$
+
+$$
+\sum M = 0
+$$
+
+*M reprsents a moment (rotational effect)*
+
+**Hooke's Law (Normal):**
+
+$$
+F = kx
+$$
+
+**Hooke's Law (Torsional):**
+
+$$
+M = k_\theta \theta
+$$
+
+*k represents the spring coefficient, which is dependent on material properties* 
+
+*k_\theta represents torsional spring coefficient, which is dependent on material properties*
+
+*x represents distance from equilibrium state*
+
+
+ ### ii) 
+ An assumption that verifies this model is that the change of the coefficient of friction between the surfaces being clamped remains approximately constant during operation and study. 
+
+
+ c. 
+
+
+ d. Patent Identification: 
+ Patent NO:USOOD665246S
+ Author: Jean-Claude Laguelle 
+
+
 
 
 
