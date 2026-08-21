@@ -1,2 +1,10 @@
 #About Me
-This is how to edit
+Victor Gaskin 
+
+I view engineering as the process of turning seemingly abstract physical problems into divisible systems that can be understood, evaluated, and improved. With the sole purpose of the improvement of human convenience. Mechanical engineering has been my primary interest because of how the curriculum emphasizes understanding how materials, forces, motion, and manufacturing intersects in order to ascertain how a physical product preforms. Rather than looking to create a functional design, I strive to understand why a design works and how it could be improved upon. 
+
+My interest in mechanical engineering stemmed from the products we as a society interact with daily, and the curiosity about their function alongside the reason they were produced. Products that specialize in cost, performance, or convenience usually make a trade off in durability or repairability, alongside other traits. This relationship has led me to become particularly interested in the engineering decisions behind consumer products and how design that is consumer-minded can improve a product throughout its effective lifespan. 
+
+Throughout my engineering education, I am developing a more holistic mindset to consumer products alongside engineering problems. The theory presented within my general mathematics and physics education have been directly applied in courses such as solid mechanics, mechatronics, and CAD modeling. These subjects have reinforced the importance of utilizing physical constraints and quantitative analysis in my reasoning instead of relying on purely theoretical problem solving. The repeated application of this methodology is teaching me to approach problems and designs identifying its requirements, understanding core principles, addressing all possible solutions, and using evidence to determine whether a solution is effective.
+
+As I continue developing as a mechanical engineer, I want to focus on creating products that balance performance, reliability, and usability. Ultimately, I want my engineering work to produce products that are not only effective when they are new, but remain useful and maintainable throughout their intended service life.
