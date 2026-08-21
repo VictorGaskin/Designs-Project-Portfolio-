@@ -105,7 +105,9 @@ $$
  Patent NO:USOOD665246S
  Author: Jean-Claude Laguelle 
 
+ i) Two alternative devices to the clothespin is the binder clip and the spring clamp. Both substitutes utilize the identical principals of lever action and spring elasticity to produce a clamping force. 
 
+ii) One of the major design decisions the engineer of this product made was to incorporate raised ridges on the outside handles alongside the inside of the clamps. I suspect this choice was made for two reasons. Firstly, the ridges on the handles of the clothespin are intended to provide greater friction(therefore, better grip) between the hand and the handle. Secondly, the ridges on the contact surface of the clamp is intended to prevent slippage between the clamp and the fabric of the intended piece of clothing. 
 
 
 
