@@ -1,5 +1,5 @@
-#About Me
-Victor Gaskin 
+# About Me
+## Victor Gaskin 
 
 I view engineering as the process of turning seemingly abstract physical problems into divisible systems that can be understood, evaluated, and improved. With the sole purpose of the improvement of human convenience. Mechanical engineering has been my primary interest because of how the curriculum emphasizes understanding how materials, forces, motion, and manufacturing intersects in order to ascertain how a physical product preforms. Rather than looking to create a functional design, I strive to understand why a design works and how it could be improved upon. 
 
