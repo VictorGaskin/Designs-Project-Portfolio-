@@ -111,7 +111,7 @@ ii) One of the major design decisions the engineer of this product made was to i
 
 
 
-## Decide
+<h2> Decide </h2> 
 
 1. The homepage is the heart of any engineering portfolio, and the succinctness of the homepage is essential for prospective employers to easily understand your experience and your mission as an engineer. The intended reader of this current portfolio are teachers assistants and faculty at the University of North Carolina at Charlotte. Therefore, the homepage of such a portfolio must allow an convenient way for the reader to access my work, alongside grasping who I am, and my goals as a prospective engineer.
 
