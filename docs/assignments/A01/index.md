@@ -123,3 +123,5 @@ ii) One of the major design decisions the engineer of this product made was to i
 *Note, Part 1 and 2 of this section is listed on the "About Me" section of the portfolio*
 
 3. What it means to defend an engineering decision at this point in my education follows the same principles of defending your thesis in an argumentative essay. If your primary engineering claim is a sudden design change in a model, the burden will be on you as the engineer to provide qualitative and quantitative evidence that justifies the reasoning for the change. I've not yet had the opportunity to justify a engineering decision to my peers or superiors. Despite this, I have confidence that I could defend an engineering decision given that I did not make a decision haphazardly.
+
+4. This assignment took 5 hours to complete.
