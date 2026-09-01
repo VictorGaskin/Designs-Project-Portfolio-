@@ -39,10 +39,21 @@ Before solving for the minimum cross sectional area of any given beam in the tru
 
 Solving for the minimum cross-sectional area required me to use the highest internal force from the previous calculation. In order to solve, I utilized a equality between the maximum normal stress present in the truss and the maximum allowable normal stress. Setting both equations equal to each other allowed for the minimum cross sectional area to be found. 
 
-A significant error in my calculation was that I forgot to utilize proper dimensional analysis when calculating my units. In the image attached below I forgot to convert my maximum force into newtons in order to achieve the units of mm^2, which gave an cross sectional area 6.8 times larger than intended. 
-
+A significant error in my calculation was that I forgot to utilize proper dimensional analysis when calculating my units. In the image attached below I forgot to convert my maximum force into newtons in order to achieve the units of mm^2, which gave an cross sectional area 6.8 times larger than intended.
 <embed error image> 
+Note: (1,400.00 mm^2 vs 203.08mm^2)
 
+After correcting for the minimum area required I took the square root of the result in order to get the length and width of the required cross section. This was because the cross sections of the truss were assumed to be square and thus needed a (# x #) format in order to achieve the desired area. A design choice that I made was to round the minimum cross sectional area up to the nearest whole number regardless of the decimal place. This was done to simplify the future modeling process. I am not unaware that this would raise manufacturing cost and weight, however the added safety and simplicity in design weighed heavier*. This decision raised the cross sectional area from 203.08mm^2 to 225mm^2 (in imperial units this is .3148in^2 to .3488 in^2) an 11% increase
+
+<embed substitution expression>
+### Truss Weight Calculation 
+
+In order to calculate the weight of the truss I first found the combined length of every beam in the truss in meters. Using this value I calculated the volume of the beam in mm^3. I then realized since density of metals are usually given in kg/m^3, I had to use dimensional analysis to convert my volume in mm^3 into m^3. Next, I found the density(ρ) of A500 Grade C Steel online set up the equation for density. Mass was the unknown in this equation and was solved for. I converted my mass into empirical units for simplicity between audiences. 
+
+<embed calculation of mass for truss> 
+
+
+### Pin Calculation. 
 
 
 
