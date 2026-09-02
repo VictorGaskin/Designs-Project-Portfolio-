@@ -112,7 +112,12 @@ The complete calculations:
 
 
 ### Truss Modeling 
+
 The computer aided modeling software used for this portion of the project was SOLIDWORKS 
+
+SOLIDWORKS FILE: 
+
+
 
 #### Method 
 
