@@ -71,6 +71,53 @@ Image below portrays the final mass calculation with all errors omitted:
 
 ### Pin Calculation. 
 
+#### Pins: Cross Sectional Area
+
+As I went to calculate the cross sectional area for the pins, a few considerations had to be understood. The pins were assumed to be able to withstand buckling, which mean that the forces that would cause buckling were not considered with this calculation. The factor of safety for the pins were slightly higher than for the body of the truss, being 4 instead of 3.5 respectively. The material used for the pins were different than the body of the truss, and lastly that the pin connections were designed for single shear. 
+
+Firstly a free body diagram was developed to model the direction of shear. Once that was determined a similar equation to the one used to determine the cross sectional area for the truss body was utilized, substituting normal stress for shear stress. The method for solving for variable Across was identical to the minimum cross sectional area for the beam.  
+
+##### Minor Errors 
+
+Initial errors in my calculations came from forgoing unit conversions between ksi and psi. This error was caught quickly and does not occur again for the remainder of this project
+
+##### Results
+
+The final calculation for the cross sectional area of the pins is below: 
+
+<img width="1052" height="1280" alt="image" src="https://github.com/user-attachments/assets/dfbd7d17-7ce2-48ea-8a8f-c2f8a16db2bd" />
+
+#### Pins: Weight
+
+A few considerations I had to keep in mind before starting the weight calculation of the pins was that the specific type of hardened tool steel was not described. I could have used a general range of tool steel densities in order to calculate, but I opted to know exactly what type of steel I would use in order to ease replicability and increase consistency. I chose H13 Tool Steel as it had the lowest weight per in^3 of other tool steels that were listed
+
+##### Mistakes
+
+A mistake that was made through the volume calculation was that I mistook my first answer for mass to be in units of lbs instead of lbs per inches. This error occured because I did not consider the thickness of the pins had to at minimum be as thick as the cross sections of the truss beams. 
+
+I also forgot to calculate the radius of the pins when I had calculated the cross sectional area. If the radius was calculated from this step, it would have eased the modeling process in SOLIDWORKS.
+
+An image of this error: 
+
+<img width="1536" height="1043" alt="image" src="https://github.com/user-attachments/assets/9c630653-a7bd-4a5f-9898-185c25c6ea17" />
+
+##### Results
+
+With a better understanding for the pin calculations, I opted to add an extra 0.5mm of length to the pins. This was because truss pins are not made to be press fit, instead they are designed in order to be replaced whenever necessary. 
+
+Knowing the intended length for the pins, the volume of the pins could be calculated, and the weight could be found with the given/obtained values. Since my truss was designed with five pins, I multiplied the found pin weight by 5 to account for those extra pins.
+
+The complete calculations: 
+<img width="2160" height="2999" alt="image" src="https://github.com/user-attachments/assets/21ec98b8-d60a-435a-a4c0-ebb3418c0b0b" />
+
+
+### Truss Modeling 
+
+
+
+
+
+ 
 
 
 
