@@ -118,6 +118,9 @@ The computer aided modeling software used for this portion of the project was SO
 
 The model of the truss system was designed as a single rigid body instead of an assembly per the project instructions. 
 
+
+
+
 SOLIDWORKS does not natively support the material used for the truss(A500 Steel), instead of recalculating the properties of the truss with another material. I instead created a custom material within the software and imported the material properties of Grade C A500 steel manually.
 <img width="2035" height="1690" alt="image" src="https://github.com/user-attachments/assets/4f4fdd68-38ec-4b2f-82f0-06cb9dfd2f1f" />
 
