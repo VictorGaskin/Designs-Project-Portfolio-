@@ -13,12 +13,14 @@ _Which geometry did you select, and why? This is your first open design choice i
 
 I selected a design that had the minimum amount of members required to provide stability given the loads applied. I chose a triangular design for the truss due to triangles being inherently rigid and more material efficient compared to similar rectangular truss designs. I considered a design where a beam would have subtended the inside of the center triangle. However I opted out of this decision because there was no forces applying a load on the top of the truss, where such a beam would have benefitted the truss the most. Avoiding zero force members was the goal, as a beam that is not aiding in supporting the overall load is extremely wasteful.
 
-<embed image here> 
+<img width="2048" height="1267" alt="image" src="https://github.com/user-attachments/assets/2c708b45-4415-485d-a47b-c80e59ef84b7" />
+
 
 ## Communicate
 
 The first step in the design process was to solve the truss for all of the external forces. This was simple due to forces P and pins C and D. 
-<embed FDB>
+<img width="1127" height="1280" alt="image" src="https://github.com/user-attachments/assets/9fc851ba-b1ec-4517-b041-649bbd3d7254" />
+
 
 The choice for a simpler truss design aided in the analysis of internal forces. The truss had 7 individual members and 6 pins(including an added pin E, which in subsequent calculations is rendered negligible). 5 pins had to be solved in order to have thoroughly analyzed. I chose to solve for Pins A, B, C, and D due to those pins being listed points in the problem statement. 
 
@@ -32,7 +34,9 @@ Representing the internal forces of the truss symbolically was a roadblock due t
 
 Eventually, I completed both the symbolic and numerical verification of the internal forces of the truss. Ensuring consistency between both. This did require me to redo the calculations of the truss to provide space for more legible documentation
 
-<embed final image for both> 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b2aa2ee0-2a79-44b9-9aac-564a08b0ca2a" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/8c57b704-2086-4081-a10d-92d092494fc3" />
 
 Next, I had to calculate the minimum cross sectional area for the rods of the truss to support the greatest normal stress, the weight of the truss given the found cross sectional area, as well as the minimum cross sectional area of the pins to support the greatest shear stress. Both calculations for the rods and pins had safety factor considerations of 3.5 and 4 respectively. 
 
@@ -42,18 +46,27 @@ Before solving for the minimum cross sectional area of any given beam in the tru
 
 Solving for the minimum cross-sectional area required me to use the highest internal force from the previous calculation. In order to solve, I utilized a equality between the maximum normal stress present in the truss and the maximum allowable normal stress. Setting both equations equal to each other allowed for the minimum cross sectional area to be found. 
 
-A significant error in my calculation was that I forgot to utilize proper dimensional analysis when calculating my units. In the image attached below I forgot to convert my maximum force into newtons in order to achieve the units of mm^2, which gave an cross sectional area 6.8 times larger than intended.
-<embed error image> 
+<img width="1077" height="614" alt="image" src="https://github.com/user-attachments/assets/934d203e-78ad-4f09-8c16-effaed34fd25" />
+
+### Major Error
+A significant error in my calculation was that I forgot to utilize proper dimensional analysis when calculating my units. In the image attached below I forgot to convert my maximum force into newtons in order to achieve the units of mm^2 as well as not converting my stress in ksi in terms of psi, which gave an cross sectional area 6.8 times larger than intended.
+
 Note: (1,400.00 mm^2 vs 203.08mm^2)
+<img width="2491" height="2160" alt="image" src="https://github.com/user-attachments/assets/4ee0d8bf-f996-44db-a7e6-61005ffe3827" />
+
 
 After correcting for the minimum area required I took the square root of the result in order to get the length and width of the required cross section. This was because the cross sections of the truss were assumed to be square and thus needed a (# x #) format in order to achieve the desired area. A design choice that I made was to round the minimum cross sectional area up to the nearest whole number regardless of the decimal place. This was done to simplify the future modeling process. I am not unaware that this would raise manufacturing cost and weight, however the added safety and simplicity in design weighed heavier*. This decision raised the cross sectional area from 203.08mm^2 to 225mm^2 (in imperial units this is .3148in^2 to .3488 in^2) an 11% increase
 
-<embed substitution expression>
+<img width="3072" height="1353" alt="image" src="https://github.com/user-attachments/assets/b986f4de-ba5c-4d82-82c9-9a2f85c4117f" />
+
 ### Truss Weight Calculation 
 
-In order to calculate the weight of the truss I first found the combined length of every beam in the truss in meters. Using this value I calculated the volume of the beam in mm^3. I then realized since density of metals are usually given in kg/m^3, I had to use dimensional analysis to convert my volume in mm^3 into m^3. Next, I found the density(ρ) of A500 Grade C Steel online set up the equation for density. Mass was the unknown in this equation and was solved for. I converted my mass into empirical units for simplicity between audiences. 
+In order to calculate the weight of the truss I first found the combined length of every beam in the truss in meters. Using this value I calculated the volume of the beam in mm^3. I then realized since density of metals are usually given in kg/m^3, I had to use dimensional analysis to convert my volume in mm^3 into m^3. Next, I found the density(ρ) of Grade C A500 Steel online set up the equation for density. Mass was the unknown in this equation and was solved for. I converted my mass into imperial units for simplicity between audiences. 
 
-<embed calculation of mass for truss> 
+Image below portrays the final mass calculation with all errors omitted:
+
+<img width="940" height="1280" alt="image" src="https://github.com/user-attachments/assets/f9ed174f-d859-42e9-8e1e-536903702cd2" />
+
 
 
 ### Pin Calculation. 
