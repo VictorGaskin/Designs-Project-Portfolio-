@@ -22,7 +22,7 @@ The first step in the design process was to solve the truss for all of the exter
 <img width="1127" height="1280" alt="image" src="https://github.com/user-attachments/assets/9fc851ba-b1ec-4517-b041-649bbd3d7254" />
 
 
-The choice for a simpler truss design aided in the analysis of internal forces. The truss had 7 individual members and 6 pins(including an added pin E, which in subsequent calculations is rendered negligible). 5 pins had to be solved in order to have thoroughly analyzed. I chose to solve for Pins A, B, C, and D due to those pins being listed points in the problem statement. 
+The choice for a simpler truss design aided in the analysis of internal forces. The truss had 7 individual members and 5 pins(including an added pin E, which in subsequent calculations is rendered negligible). 4 pins had to be solved in order to have thoroughly analyzed. I chose to solve for Pins A, B, C, and D due to those pins being listed points in the problem statement. 
 
 At first I chose to use the method of sections to analyze the internal forces of the truss, in order to cut down on the time spent solving. After some deliberation, I opted to utilize the method of pins because it would allow me to have a greater understanding of what exactly was happening within the truss. I made this decision with the knowledge that it would greatly extend the time spent solving
 
