@@ -112,6 +112,40 @@ The complete calculations:
 
 
 ### Truss Modeling 
+The computer aided modeling software used for this portion of the project was SOLIDWORKS 
+
+#### Method 
+
+The model of the truss system was designed as a single rigid body instead of an assembly per the project instructions. 
+
+SOLIDWORKS does not natively support the material used for the truss(A500 Steel), instead of recalculating the properties of the truss with another material. I instead created a custom material within the software and imported the material properties of Grade C A500 steel manually.
+<img width="2035" height="1690" alt="image" src="https://github.com/user-attachments/assets/4f4fdd68-38ec-4b2f-82f0-06cb9dfd2f1f" />
+
+Material Properties Utilized
+<img width="1142" height="540" alt="image" src="https://github.com/user-attachments/assets/04adcffc-542a-40e4-ad51-c71c3bb74fa9" />
+
+These steps ensured the subsequent weight of the truss would be as accurate as possible. 
+
+
+#### Modeling 
+
+I used the line tool to create the "skeleton" of the truss, ensuring that the exact length ratios used in the truss calculations were preserved. Thankfully, SOLIDWORKS automatically converts metric measurements into English units.
+
+<img width="1000" height="775" alt="image" src="https://github.com/user-attachments/assets/c526f973-9948-44bc-9d08-29f8ca98a182" />
+
+
+Afterwards, I used a built in tool(Structural Member) used to model beams in place of extruding the entire piece. I ensured that the cross sections would still be square to ensure consistency with previous calculations. This also includes where the pins would be.
+
+<img width="2880" height="1752" alt="image" src="https://github.com/user-attachments/assets/3e782fc2-3224-40ff-8192-1d2942c4d8de" />
+
+
+Lastly, I could use the mass properties analysis tool to find the weight of the model truss. 
+<img width="1075" height="455" alt="image" src="https://github.com/user-attachments/assets/4bad566c-00e5-4a37-b364-bae43429cce3" />
+
+
+##### Comparison
+
+The difference in weight between the CAD model and my calculations were about 13 percent. The previously calculated weight was 12.97 lbs compared to the models 14.96 lbs 
 
 
 
