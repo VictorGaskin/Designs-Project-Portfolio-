@@ -149,10 +149,59 @@ The difference in weight between the CAD model and my calculations were about 13
 
 
 
+### Engineering Lessons Learned 
+
+The major lessons learned within this assignment was that is extremely important to keep track of units, especially when completing dimensional analysis. There was a multitude of times throughout the project where the conversions between metric and English units, or similar units of pressure or volume caused cascading errors within the project that took upwards of an hour to rectify. This demonstrated how important it was to have symbolic representations of the problems before I plugged in any values. 
+
+Alongside this, this project demonstrated the stark difference between how engineering design can change between the conception and execution phases. I learned how to narrow down and specify where the design needed to be adapted in order to fit within the parameters given. This included the specification of the material type, sizes of specific part to work within real engineering, and CAD modeling to ensure accuracy to the previously mentioned parameters. 
+
+In addition to the challenges, I learned value information about the use cases and material properties of Grade C A500 Steel and H13 Tool Grade Steel.
+
+Overall, this project taught me how to carefully manage units and dimensional analysis, use symbolic equations to prevent calculation errors, adapt an engineering design to meet specific constraints, and apply material properties when selecting appropriate materials. It also helped me understand the differences between the initial design concept and the final engineered design through sizing, material selection, and CAD modeling.
 
 
- 
+### Truss Members Failure Analysis
 
+#### 1. Members whose most likely failure mode is Yielding
+
+The members whose failure mode would be yielding is BC, BE, CE, DE, 
+
+CE and DE would be the most likely members to fail due to yielding because of both members having the highest internal loads placed on them due to the external forces P on their pin joints. 
+
+#### Members whose most likely failure mode is Buckling 
+
+Since buckling is indicative of members that are in compression, only member AD would be able to buckle significantly.
+
+#### Exceptions 
+
+CD is a zero force member, so it is the absolutely least likely member to fail. 
+
+
+#### 2. Material Quality
+The materials that make up the members of the truss are ductile
+
+#### 3. Justification
+*Source: https://baling-steel.com/astm-a500-grade-b-properties/
+Due to each member being made of A500 Steel, each member would be ductile. This makes sense due to truss needed to show warning signs before failure to preserve human lives. Furthermore, lower carbon steels are more ductile than their lower carbon counterparts. Grade C A500 steel has a carbon content of 0.23% compared to the ~0.60% range of high carbon steels. 
+
+#### 4. Preventative Measures 
+
+A preventative measure that could be taken to prevent the most prevalent failure mode in this truss(yielding) is slightly lengthen the members by a smaller safety factor in order to better distribute the forces throughout the beam. 
+
+
+### Pin Failure Analysis
+
+#### 1. Expected Failure Modes 
+
+Akin to the rest of the truss members, most of the pins are undergoing tension. This would lead the pins to most likely undergo pin bending. 
+
+#### 2. Justification 
+
+The pins would have the forces from the rest of the internal beam and external forces shifted onto them. The Journal of Constructional Steel Research confirmed the behavior of pins when undergoing a bending moment due to shear. This proves that this is a considerable failure mode in pins under yield. 
+
+#### 3. Design Modifications 
+
+A design modification that could significantly reduce the chance of pins failing due to pin bending is increasing the diameter of the pin. Increasing the width of the pins will allow them to withstand more forces before starting to fail.
 
 
 
