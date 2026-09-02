@@ -8,11 +8,13 @@ The objective of this project is to assemble a truss system, analyze the interna
 
 
 ## Decide
+
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
 I selected a design that had the minimum amount of members required to provide stability given the loads applied. I chose a triangular design for the truss due to triangles being inherently rigid and more material efficient compared to similar rectangular truss designs. I considered a design where a beam would have subtended the inside of the center triangle. However I opted out of this decision because there was no forces applying a load on the top of the truss, where such a beam would have benefitted the truss the most. Avoiding zero force members was the goal, as a beam that is not aiding in supporting the overall load is extremely wasteful.
 
 <embed image here> 
+
 ## Communicate
 
 The first step in the design process was to solve the truss for all of the external forces. This was simple due to forces P and pins C and D. 
@@ -23,6 +25,7 @@ The choice for a simpler truss design aided in the analysis of internal forces. 
 At first I chose to use the method of sections to analyze the internal forces of the truss, in order to cut down on the time spent solving. After some deliberation, I opted to utilize the method of pins because it would allow me to have a greater understanding of what exactly was happening within the truss. I made this decision with the knowledge that it would greatly extend the time spent solving
 
 ### Major Difficulties
+
 Difficulties arose in solving due to the truss design I chose. Due to the center of the truss having a different length than the ones surrounding it, solving for the inner angles of this triangle became a laborious task, as such angles were necessary for finding force members. This is most apparent for Pins C and D of which are points of this triangle. 
 
 Representing the internal forces of the truss symbolically was a roadblock due to confusion of how to represent trigonometric functions without using the arguments of sin/cos as well as their corresponding angles. Eventually I realized that these arguments can be represented as the ratio of lengths between the triangles, although this now required me to remember which argument I would be referring to when I solved the truss numerically. This roadblock slowed down the solving of the truss by 2 hours, as various steps needed to be double checked and verified against the numerical answers in order to be logically consistent. 
