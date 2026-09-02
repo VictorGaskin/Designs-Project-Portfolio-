@@ -181,7 +181,8 @@ CD is a zero force member, so it is the absolutely least likely member to fail.
 The materials that make up the members of the truss are ductile
 
 #### 3. Justification
-*Source: https://baling-steel.com/astm-a500-grade-b-properties/
+
+*Source: https://baling-steel.com/astm-a500-grade-b-properties/*
 Due to each member being made of A500 Steel, each member would be ductile. This makes sense due to truss needed to show warning signs before failure to preserve human lives. Furthermore, lower carbon steels are more ductile than their lower carbon counterparts. Grade C A500 steel has a carbon content of 0.23% compared to the ~0.60% range of high carbon steels. 
 
 #### 4. Preventative Measures 
@@ -196,6 +197,8 @@ A preventative measure that could be taken to prevent the most prevalent failure
 Akin to the rest of the truss members, most of the pins are undergoing tension. This would lead the pins to most likely undergo pin bending. 
 
 #### 2. Justification 
+
+*Source: https://www.sciencedirect.com/science/article/pii/S0143974X22006228*
 
 The pins would have the forces from the rest of the internal beam and external forces shifted onto them. The Journal of Constructional Steel Research confirmed the behavior of pins when undergoing a bending moment due to shear. This proves that this is a considerable failure mode in pins under yield. 
 
