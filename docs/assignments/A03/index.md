@@ -5,15 +5,20 @@ The purpose of this assignment was to utillize design parameters to create a bea
 
 
 ## Analyze
+
 The parameters of the project had a few strict requirments to choose. 
 Firstly, the bar cross section needed to be circular, secondly the force applied to the bar had to be between 300 lb/f and 500lb/f, the maximum axial deflection of the bar was .009 inches, and lastly the material used for the bar had to be aluminum with a Young's Modulus between (8.5-11.5)* 10^6 pounds per square inch. 
 
 ### Given
 
 The initial parameters for my chosen bar is below: 
+
 Material: 6061-T6 Aluminum 
+
 Applied Load: 300lb/f
+
 Young's Modulus(E): 10.0 * 10^6 psi 
+
 Diameter of bar = 2.0 inches
 
 #### Minimum Length in order to satisfy maximum deflection. 
@@ -74,8 +79,11 @@ In my bar, I made the left end of the bar my fixed geometry and the right end wh
 The yield strenth of aluminum was identified to by 40ksi(40,000 psi), dividing this value by maximum stress of the bar delivers a safety factor of about 361. 
 
 Solidworks's analysis yielded a similar result. 
+
 <img width="795" height="197" alt="image" src="https://github.com/user-attachments/assets/0af91ad3-94ad-4985-9478-8d1237df366a" />
 
+
+The link to the CAD File is here: 
    
 ### Results
 
@@ -89,14 +97,6 @@ Since these two values are essentially the same, I would most likely choose the 
 
 
 b. For the hypothetical hole placed within the beam, I found that Kt factor is about a range of 2.0 to 3.0. Assuming the highest amount of 3.0, that would raise the concentration of stress to 330 psi. This value would pass the FEA, as the yield strength is still 40ksi. The stress concentration that the hole creates is only 0.825% of the maximum yield strength. The beam would be unaffected due to the change in stress due to the stress concentration being almost negligible. 
-
-### Lessons Learned 
-
-The engineering lessons that I learned is how to use Finite Element Analysis. This was invaluable because I have always known what FEA was and what it was used for but never had an opportunity to utilize it. 
-
-The mistake I made was that I misread the parameters of the assignment and created a beam with rectangular cross sections instead of circular cross sections. This would have skewed the area and the length required to ensure the bar did not deflect too much. 
-
-Approximately 3 Hours was spent on this assignment. 
 
 
 ### Modify Design Parameters
@@ -118,8 +118,20 @@ This change significantly  increase the length of the beam, it is 400 inches lon
 
 
 ## Decide
+The engineering parameters decided upon throughout length of project: 
+Cross Section Type: Circular
+Circular Diameter: 2.0in
+Material Type: 6061-T6 Aluminum 
+Applied Load: 350 lb/ft 
+
 
 
 ## Communicate
 
-results
+### Lessons Learned 
+
+The engineering lessons that I learned is how to use Finite Element Analysis. This was invaluable because I have always known what FEA was and what it was used for but never had an opportunity to utilize it. 
+
+The mistake I made was that I misread the parameters of the assignment and created a beam with rectangular cross sections instead of circular cross sections. This would have skewed the area and the length required to ensure the bar did not deflect too much. 
+
+Approximately 3 Hours was spent on this assignment. 
