@@ -90,6 +90,32 @@ Since these two values are essentially the same, I would most likely choose the 
 
 b. For the hypothetical hole placed within the beam, I found that Kt factor is about a range of 2.0 to 3.0. Assuming the highest amount of 3.0, that would raise the concentration of stress to 330 psi. This value would pass the FEA, as the yield strength is still 40ksi. The stress concentration that the hole creates is only 0.825% of the maximum yield strength. The beam would be unaffected due to the change in stress due to the stress concentration being almost negligible. 
 
+### Lessons Learned 
+
+The engineering lessons that I learned is how to use Finite Element Analysis. This was invaluable because I have always known what FEA was and what it was used for but never had an opportunity to utilize it. 
+
+The mistake I made was that I misread the parameters of the assignment and created a beam with rectangular cross sections instead of circular cross sections. This would have skewed the area and the length required to ensure the bar did not deflect too much. 
+
+Approximately 3 Hours was spent on this assignment. 
+
+
+### Modify Design Parameters
+
+A proof of design modification was provided above, but re-verification can be done. 
+
+The default parameters gives a length of 807 inches. 
+
+<img width="1732" height="567" alt="Screenshot 2026-09-09 191348" src="https://github.com/user-attachments/assets/5722ed2e-fb28-459a-a1b6-d66122d8e9c5" />
+
+
+If I were to modify the diameter of the beam, I would hypothesize that the beam length would increase by a large factor, due to that term being squared. 
+
+Observe how a diameter change of .5 inches affects length of beam. 
+
+This change significantly  increase the length of the beam, it is 400 inches longer. 
+
+<img width="1732" height="545" alt="Screenshot 2026-09-09 191552" src="https://github.com/user-attachments/assets/5887e0d5-93b1-485f-b8d0-4d021e1f1c06" />
+
 
 ## Decide
 
