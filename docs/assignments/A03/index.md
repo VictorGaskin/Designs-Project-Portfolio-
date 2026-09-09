@@ -83,7 +83,7 @@ Solidworks's analysis yielded a similar result.
 <img width="795" height="197" alt="image" src="https://github.com/user-attachments/assets/0af91ad3-94ad-4985-9478-8d1237df366a" />
 
 
-The link to the CAD File is here: 
+The link to the CAD File is here: https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Parametric%20Beam%20FEA.SLDPRT
    
 ### Results
 
