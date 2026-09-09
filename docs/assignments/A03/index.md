@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# A3 – Finite Element Analysis on a Beam
 
 ## Objective
 The purpose of this assignment was to utillize design parameters to create a beam that would not surpass a given threshold, and use Finite Element Analysis to verify the validity of previous results. 
