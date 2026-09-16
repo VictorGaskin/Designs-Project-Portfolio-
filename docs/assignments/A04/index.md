@@ -109,8 +109,11 @@ https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Motor%20Mou
 https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Motor%20Mount%20and%20Drawing.SLDDRW
 
 
+### Takeaways and Struggles
 
+This project has taught me how to design a product with more open ended parameters that I was usually comfortable with. This has improved my critical thinking skills as I now have more experience juggling multiple constraints at once. 
 
+The struggle with this project was mostly with adapting to the modeling environment of SolidWorks after spending multiple months modeling with Creo. Another struggle throughout this project was with verification of figures due to second guessing. I was so consumed by making sure my units were consistent that I questioned if I had set up my parameters correctly initially. This caused me to re-calculate my values and added an additional 2 hours to this project. 
 
 
 
@@ -120,3 +123,4 @@ https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Motor%20Mou
 
 ## Communicate
 
+In total this project took me 8 hours to complete. 
