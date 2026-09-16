@@ -66,9 +66,50 @@ After the calculations, a height of 12.04 mm was chosen for feature 1.
 
 The only difference between the calculations between feature 1 and 2 is that I acertained that since feature 2 was mostly going to be mounted, that the distance that could possibly experience deflection is only 1/4 the given length. This was taken in account during the calculations, where variable L represents L/4. 
 
-<img width="2802" height="1320" alt="image" src="https://github.com/user-attachments/assets/bd6bbd3a-277e-4322-93a6-0065aca1a4e4" />
+<img width="1536" height="989" alt="image" src="https://github.com/user-attachments/assets/9b7ce8c2-0f46-4fa5-901a-9405e7d2b0f9" />
+
 
 After the calculations, a height of 5.47 mm was chosen for feature 2. 
+
+
+### Sketch 
+
+This is the rough sketch before the CAD model. Dimensions are listed on the sketch
+
+<img width="1536" height="989" alt="image" src="https://github.com/user-attachments/assets/20a61377-74b2-4377-91da-5699e676ba76" />
+
+
+
+### CAD MODEL 
+
+Before I began to model the mount using my calculated dimensions, I inserted all the variables I used during calculations in order to ensure that my model would be parametric. 
+
+Note: I only included the formulas for height that yielded that largest h value for each feature, since if you satisfy the parameter that requires the highest height you always will satisfy the other. 
+
+<img width="995" height="440" alt="image" src="https://github.com/user-attachments/assets/573f6f27-8c19-4419-8200-4bf6ea41fcc7" />
+
+Next, I proceeded to design the bodies of features one and two and extrude them, this was a bit of a struggle as I was still unfamiliar with the UI of SolidWorks. 
+
+Note: The values are converted to inches by SolidWorks. The input dimensions were in mm.
+
+<img width="690" height="670" alt="image" src="https://github.com/user-attachments/assets/f2d4375e-93ab-4a90-9c6b-236c9f30dafd" />
+
+<img width="452" height="610" alt="image" src="https://github.com/user-attachments/assets/913c95f6-7fd1-4b08-8992-d49ea2061b74" />
+
+With the general profile of the mount completed, I can now enter all the holes required to hold the body of the mount and the screws that would hold the rest of its profile. 
+
+<img width="510" height="650" alt="image" src="https://github.com/user-attachments/assets/b73e1ecb-4fd4-42a0-bb75-aabc6b6882ad" />
+
+
+This project also required a drawing to be attached to the project: 
+
+
+
+
+
+
+
+
 
 
 
