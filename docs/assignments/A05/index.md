@@ -92,9 +92,20 @@ Note: The values for this fit is referenced in the *Machinists Handbook 32nd edi
 The fit for the shaft with a diameter of 1 inch is a Class FN1 Standard Force and Shrink Fit with Grade 6 Tolerances, and would be most cheaply manufactured using a Reaming method. 
 
 <img width="1280" height="966" alt="image" src="https://github.com/user-attachments/assets/dd1c3ab4-bbb4-4fe4-94b4-4d1d5777aa84" />
+Note: The values for this fit is referenced in the *Machinists Handbook 32nd edition, Table 11, Pg.660 and Pg.654*
 
+### Lessons Learned
 
+For Feature C. The width of that part was designed with the stiffness parameter. Stiffness required 0.34in for Ti-6Al-4V compared to 0.0188 in for the strength parameter. 
 
+An error that happened early in the design process that was caught later on was that I made an illogical assumption for the length of feature E. I found that the length of E was going to be b + c. This happened because I interpreted the givens for the project incorrectly, and ascertained that e stretches across half of the T-bar. 
+
+Thankfully, this only affected the calculations for feature E, so only two equations needed to be recalculated. 
+
+For the material, if the physical properties determened from my sources were found to be incorrect, than my lengths would either increase or decrease significantly. I determined from calculation my design parameters that my material choice of titanium reduced the amount of material needed to support the determined forces, since titanium is a strong and light metal(alongside with it being alloyed with metals that improves it's ductility) 
+
+Takeaways and Struggles
+This project has taught me how to design a product with more open ended parameters. Alongside this, my engineering visualization has improved as I started to have a greater sense of how my outputs would change given my material choice or length assumptions. This has improved my critical thinking skills as I now have more experience juggling multiple constraints at once.
 
 ## Decide
 
