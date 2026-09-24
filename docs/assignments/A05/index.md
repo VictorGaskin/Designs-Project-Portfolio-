@@ -100,7 +100,7 @@ For Feature C. The width of that part was designed with the stiffness parameter.
 
 An error that happened early in the design process that was caught later on was that I made an illogical assumption for the length of feature E. I found that the length of E was going to be b + c. This happened because I interpreted the givens for the project incorrectly, and ascertained that e stretches across half of the T-bar. 
 
-Thankfully, this only affected the calculations for feature E, so only two equations needed to be recalculated. 
+Thankfully, this only affected the calculations for feature E, so only two equations needed to be recalculated.
 
 For the material, if the physical properties determened from my sources were found to be incorrect, than my lengths would either increase or decrease significantly. I determined from calculation my design parameters that my material choice of titanium reduced the amount of material needed to support the determined forces, since titanium is a strong and light metal(alongside with it being alloyed with metals that improves it's ductility) 
 
