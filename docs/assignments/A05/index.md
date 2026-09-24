@@ -47,6 +47,39 @@ Features C-E we're solved for their assorted unknown variables.
 <img width="1179" height="1210" alt="image" src="https://github.com/user-attachments/assets/5d133519-9a2e-4152-80ae-961848d8c7de" />
 
 
+### Dimensions determined by Stiffness: 
+
+For the stiffness design, the same assumptions made in the strength design was carried over into the calculations. 
+
+Note: The given max deflection was 0.005 in
+
+#### Features A-B
+
+<img width="801" height="1024" alt="image" src="https://github.com/user-attachments/assets/a5a6a12b-3a4c-4651-b6fe-d8e249948a67" />
+
+#### Features C-E 
+
+<img width="828" height="1024" alt="image" src="https://github.com/user-attachments/assets/4ca18017-82fb-43f9-baf2-ce032477c2e6" />
+
+<img width="1179" height="866" alt="image" src="https://github.com/user-attachments/assets/58464ea6-f603-4f8b-8af2-61459356e782" />
+
+
+### Sketch with Determining Dimensions 
+
+After calculating all of the needed measurements for the bracket, I created a sketch with only the governing dimensions that would be used in the bracket. Surprisingly, dimensions from only one aspect of the design(whether that be strength or stiffness) did not dominate the final design. That is to say, governing dimensions came from both the stiffness and strength calculations. 
+
+Additionally, the sketches for the strength design and the stiffness design are attached below. 
+
+<img width="1280" height="1143" alt="image" src="https://github.com/user-attachments/assets/99884eb8-0060-4d8f-8e36-29d2b93934aa" />
+
+<img width="1280" height="996" alt="image" src="https://github.com/user-attachments/assets/53405973-9b7c-499c-b549-c646bd558e96" />
+
+<img width="1102" height="1175" alt="image" src="https://github.com/user-attachments/assets/5414d043-a856-451c-bd28-7edf82daea4c" />
+
+
+
+
+
 
 
 ## Decide
