@@ -77,7 +77,21 @@ Additionally, the sketches for the strength design and the stiffness design are 
 <img width="1102" height="1175" alt="image" src="https://github.com/user-attachments/assets/5414d043-a856-451c-bd28-7edf82daea4c" />
 
 
+### Fits
 
+The goal was to design a connecting plane that will join both shafts together. I decided to keep the same material and force. Once I had all of my calculations done, I used the Machinery's Handbook to determine the correct fit, the recommended clearance, and the appropriate machining methods for Parts A and the Shaft. 
+
+<img width="1536" height="1379" alt="image" src="https://github.com/user-attachments/assets/44802cf8-92db-4682-8395-69064e144f89" />
+
+The fit for A ended up being a Class RC2 sliding fit with Grade 5 tolerances, and would be the most cheaply manufactured using a breaching mode of manufacture. 
+
+
+<img width="3072" height="1414" alt="image" src="https://github.com/user-attachments/assets/cafacf62-3aaf-4de8-bf93-1a3e67535a02" />
+Note: The values for this fit is referenced in the *Machinists Handbook 32nd edition, Table 8A, Pg.650 and Pg.654*
+
+The fit for the shaft with a diameter of 1 inch is a Class FN1 Standard Force and Shrink Fit with Grade 6 Tolerances, and would be most cheaply manufactured using a Reaming method. 
+
+<img width="1280" height="966" alt="image" src="https://github.com/user-attachments/assets/dd1c3ab4-bbb4-4fe4-94b4-4d1d5777aa84" />
 
 
 
