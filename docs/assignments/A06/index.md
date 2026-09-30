@@ -52,7 +52,7 @@ Here is the finished bracket:
 
 <img width="947" height="1095" alt="image" src="https://github.com/user-attachments/assets/5f12cc44-c0d1-43bf-b0f1-0d4275e27a5b" />
 
-The CAD File can be viewed [Clickable Text]()
+The CAD File can be viewed [here](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Bracket%20Draft.SLDPRT)
 
 ### Drawing 
 
@@ -60,7 +60,7 @@ Once my bracket was fully designed, I created a drawing file in SolidWorks. I en
 
 <img width="1307" height="1015" alt="image" src="https://github.com/user-attachments/assets/fac6e500-7a05-41b4-a0c1-cc9407f98b3a" />
 
-
+The Drawing File can be viewed [here]()
 ### Fastening Plane 
 
 I created this part by connecting two parallel lines with tangent arcs, I then dimensioned the correct distances, extruded the part to desired thickness, and then extruded cut holes into the fastening plane. 
