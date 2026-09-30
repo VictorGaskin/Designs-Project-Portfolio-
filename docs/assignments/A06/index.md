@@ -60,12 +60,14 @@ Once my bracket was fully designed, I created a drawing file in SolidWorks. I en
 
 <img width="1307" height="1015" alt="image" src="https://github.com/user-attachments/assets/fac6e500-7a05-41b4-a0c1-cc9407f98b3a" />
 
-The Drawing File can be viewed [here]()
+The Drawing File can be viewed [here](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/Bracket%20Drawing.SLDDRW)
 ### Fastening Plane 
 
 I created this part by connecting two parallel lines with tangent arcs, I then dimensioned the correct distances, extruded the part to desired thickness, and then extruded cut holes into the fastening plane. 
 
 <img width="1125" height="1137" alt="image" src="https://github.com/user-attachments/assets/c30e85dd-b18d-46ad-a65a-35c6b32a7a8f" />
+
+The CAD File can be viewed [here](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/fastening%20plane.SLDPRT)
 
 ### Fastening Plane Drawing
 
@@ -73,7 +75,7 @@ After the model was created, I created a engineering drawing, following the same
 
 <img width="1777" height="1375" alt="fastening plane drawing " src="https://github.com/user-attachments/assets/de1291da-0e55-47b1-ad18-cbb02d2262f7" />
 
-
+The Drawing File can be viewed [here](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/fastening%20plane.SLDDRW)
 
 ## Decide
 
