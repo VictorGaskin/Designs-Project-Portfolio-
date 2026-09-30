@@ -52,6 +52,7 @@ Here is the finished bracket:
 
 <img width="947" height="1095" alt="image" src="https://github.com/user-attachments/assets/5f12cc44-c0d1-43bf-b0f1-0d4275e27a5b" />
 
+The CAD File can be viewed [Clickable Text]()
 
 ### Drawing 
 
