@@ -77,6 +77,12 @@ After the model was created, I created a engineering drawing, following the same
 
 The Drawing File can be viewed [here](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/fastening%20plane.SLDDRW)
 
+### Reflection: 
+
+This assignment helped me learn how different constraints affect the dimensions of parts. As well as ensuring an engineering drawing is readable and understanding how my CAD model, dimensions, and drawing connect.
+
+This assignment took about 5 hours to complete
+
 ## Decide
 
 
