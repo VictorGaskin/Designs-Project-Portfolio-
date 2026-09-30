@@ -53,6 +53,24 @@ Here is the finished bracket:
 <img width="947" height="1095" alt="image" src="https://github.com/user-attachments/assets/5f12cc44-c0d1-43bf-b0f1-0d4275e27a5b" />
 
 
+### Drawing 
+
+Once my bracket was fully designed, I created a drawing file in SolidWorks. I ensured that the drawing was in Third Angle Projection as intended. This required a top view, front view, right view, and isometric projection. These views helped ensure ease of understanding and readability.  I To create the tolerances, I made sure that there was enough clearance so that the bracket would smoothly slide through the T beam. 
+
+<img width="1307" height="1015" alt="image" src="https://github.com/user-attachments/assets/fac6e500-7a05-41b4-a0c1-cc9407f98b3a" />
+
+
+### Fastening Plane 
+
+I created this part by connecting two parallel lines with tangent arcs, I then dimensioned the correct distances, extruded the part to desired thickness, and then extruded cut holes into the fastening plane. 
+
+<img width="1125" height="1137" alt="image" src="https://github.com/user-attachments/assets/c30e85dd-b18d-46ad-a65a-35c6b32a7a8f" />
+
+### Fastening Plane Drawing
+
+After the model was created, I created a engineering drawing, following the same parameters as the bracket drawing. 
+
+<img width="1777" height="1375" alt="fastening plane drawing " src="https://github.com/user-attachments/assets/de1291da-0e55-47b1-ad18-cbb02d2262f7" />
 
 
 
