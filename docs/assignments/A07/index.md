@@ -31,9 +31,13 @@ Mass: 0.07lbs
 | Parameter | FEA 1 (Coarse) | FEA 2 (Fine) |
 |:--|:--:|:--:|
 | Max Stress (psi) |  |  |
-| Stress Location | [View Image]() | [View Image]() |
+| Stress Location | [View Image](<img width="1672" height="1402" alt="Round 1 Mid Mesh Stress" src="https://github.com/user-attachments/assets/9f27a97c-2b5c-4184-9633-00dc620983f2" />
+) | [View Image](<img width="1700" height="1420" alt="Round 1 Fine Mesh Stress " src="https://github.com/user-attachments/assets/9fd02114-ad4a-49fa-9d5b-327a75c9b5b6" />
+) |
 | Max Deflection (in) |  |  |
-| Deflection Location | [View Image]() | [View Image]() |
+| Deflection Location | [View Image](<img width="1687" height="1385" alt="Round 1 Mid Mesh Displacement " src="https://github.com/user-attachments/assets/b60e2435-6f4c-48f2-ada4-e627d00f4e26" />
+) | [View Image](<img width="1695" height="1402" alt="Round 1 Fine Mesh Displacement " src="https://github.com/user-attachments/assets/9f7d95bb-1624-4db3-a5c4-8a41b2d696e0" />
+) |
 | Mass (lb) |  |  |
 | Minimum Safety Factor |  |  |
 | Safety Factor Location | [View Image]() | [View Image]() |
