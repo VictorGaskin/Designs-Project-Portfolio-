@@ -76,13 +76,8 @@ I inputted all convergence values using this equation.
   *C(a,b)=(2\operatorname{abs}(b-a)/(a+b))*100*
 b represents X final. a represents x initial.  
 
-Convergence Results for Round 2: 
 
-Convergence of Deflections: 0.376%
-Convergence of Stresses = **21.75%**
-Convergence of FOS = *22.22%*
-
-Adding the chamfers into the design significantly decreased the variation within both the stresses and safety factors within the model. 
+Results: Adding the chamfers on to the corners where the stress concentrations occurred in the design significantly decreased the variation within both the stresses and safety factors within the model. The chamfer at the end of Feature A had no observable change in stresses or deflections as intended.
 
 ### Round 3: 
 The purpose of Round 3 was to further tune the convergence in the stress values, as well as increasing the strength-to-weight, stiffness-to-weight, and location of stress concentrations. 
@@ -96,26 +91,6 @@ I scrapped this proposed change and instead added 20 degree filets to the corner
 
 Finalized Changes: 
 <img width="2435" height="1485" alt="image" src="https://github.com/user-attachments/assets/ef5aa81b-dc10-49e4-aede-2f7b0ed3e319" />
-
-Analysis 3 Notes: 
-Medium Mesh Test: 
-Lowest FOS: 211.532
-Maximum Deflection: 8.317 x 10^4 mm
-  - Location at End of Feature A
-Maximum Stress: 3.91 MPa
-  - Location at Backside of Filet
-Mass = 0.07 lbs
-
-Fine Mesh Test: 
-
-The results from the medium mesh test goes as follows: 
-
-Lowest Factor of Safety(FOS): 193.258
-Maximum Deflection: 8.449 x 10^-4 mm or 3.36 x 10^-5 inches 
-  - Location at end of feature A where force is applied
-Maximum Stress: 3.84 MPa
-     - Location at Backside of Filet
-Mass: 0.07lbs
 
 ### FEA Round 3
 | Parameter | FEA 3 (Coarse) | FEA 3 (Fine) |
@@ -134,7 +109,7 @@ Mass: 0.07lbs
 | Stresses | 1.08% |
 | Factor of Safety (FOS) | 9.03% |
 
-Significantly more accuracy between deflection and stress convergence when filets were added. Alongside this, the strength/weight ratio was increased with stiffness/weight as model weight did not increase by more than 0.001 lbs while yielding better results. 
+Results: Significantly more accuracy between deflection and stress convergence when filets were added. Alongside this, the strength/weight ratio was increased with stiffness/weight as model weight did not increase by more than 0.001 lbs while yielding better results. 
 
 *Note: These values did not deviate by greater than 0.1% with repeated testing.* 
 
