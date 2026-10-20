@@ -49,17 +49,14 @@ Results:
 Deflections converged nicely, but stresses did not. The goal for further rounds of FEA is to optimize the stresses to get as close to converging as possible. 
   The Factors of Safety not converging is less important due to both values being vastly above our desired safety factor of 4, but convergence of FOS is intended as well. 
   
-### FEA Round 1
-| Parameter | FEA 1 (Coarse) | FEA 2 (Fine) |
+| Parameter | FEA 1 (Coarse) | FEA 1 (Fine) |
 |:--|:--:|:--:|
-| Max Stress (MPa) |3.27 MPa  | 4.18MPa |
-| Stress Location | <img width="300" alt="Round 1 Stress Analysis Medium Mesh" src="https://github.com/user-attachments/assets/417525b7-212b-4d3c-bf5b-e588a79ea28e" /> | <img width="350" alt="Round 1 Stress Analysis Fine Mesh" src= "https://github.com/user-attachments/assets/831148d1-1c77-4d09-9697-baf84107799c" />
-" /> |
-| Max Deflection (in) |3.46e-5 in  |3.45 e-5 in  |
-| Deflection Location | <img width="350" alt="Round 1 Mid Mesh Displacement " src="https://github.com/user-attachments/assets/9274daad-fcf5-41a0-870e-2e3da6924186" /> | <img width="350"  alt="Round 1 Fine Mesh Displacement " src="https://github.com/user-attachments/assets/79cdfbc2-6f4d-424a-ad7a-af49b7ad338e" />
-" /> |
-| Mass (lb) | 0.07lbs | 0.07lbs |
-| Minimum Safety Factor | 247.26 |197.81  |
+| Max Stress (MPa) | 3.27 MPa | 4.18 MPa |
+| Stress Location | <img width="350" alt="Round 1 Stress Analysis Medium Mesh" src="https://github.com/user-attachments/assets/417525b7-212b-4d3c-bf5b-e588a79ea28e" /> | <img width="350" alt="Round 1 Stress Analysis Fine Mesh" src="https://github.com/user-attachments/assets/831148d1-1c77-4d09-9697-baf84107799c" /> |
+| Max Deflection (in) | 3.46e-5 in | 3.45e-5 in |
+| Deflection Location | <img width="350" alt="Round 1 Mid Mesh Displacement" src="https://github.com/user-attachments/assets/9274daad-fcf5-41a0-870e-2e3da6924186" /> | <img width="350" alt="Round 1 Fine Mesh Displacement" src="https://github.com/user-attachments/assets/79cdfbc2-6f4d-424a-ad7a-af49b7ad338e" /> |
+| Mass (lb) | 0.07 lb | 0.07 lb |
+| Minimum Safety Factor | 247.26 | 197.81 |
 
 ### Convergence Check: 
 I inputted all convergence values using this equation. 
@@ -74,16 +71,7 @@ Convergence of FOS = *22.22%*
 
 *Note: These values did not deviate by greater than 0.1% with repeated testing.* 
 
-| Parameter |Course Study 1| Fine Study 1 |
-|:--|:--:|:--:|
-| **Max Stress (psi)** |  |  |
-| **Stress Location** | <img src="images/stress_1.png" width="300"> | <img src="images/stress_2.png" width="300"> |
-| **Max Deflection (in)** |  |  |
-| **Location** | <img src="images/deflection_1.png" width="300"> | <img src="images/deflection_2.png" width="300"> |
-| **Mass (lb)** |  |  |
-| **Min Safety Factor** |  |  |
-| **Location** | <img src="images/fos_1.png" width="300"> | <img src="images/fos_2.png" width="300"> |
-| **Number of Mesh Elements** |  |  |
+
 ### Round 2: 
 The purpose of Round 2 was to achieve convergence in the stress values, as well to reduce the stress concentrations happening within the model. 
 
@@ -118,18 +106,17 @@ Convergence of FOS = *6.897%*
 
 *Note: These values did not deviate by greater than 0.1% with repeated testing.* 
 
+
 ### FEA Round 2
 | Parameter | FEA 2 (Coarse) | FEA 2 (Fine) |
 |:--|:--:|:--:|
-| Max Stress (MPa) |3.84 MPa  | 4.22 MPa |
-| Stress Location | <img width="300" alt="Round 2 Mid Mesh Stress " src="https://github.com/user-attachments/assets/d72bb7b0-08fa-46ea-bb3b-38009ff5b662" />
- /> | <img width="350" alt="Round 1 Stress Analysis Fine Mesh" src= "https://github.com/user-attachments/assets/831148d1-1c77-4d09-9697-baf84107799c" />
-" /> |
-| Max Deflection (in) |3.46e-5 in  |3.45 e-5 in  |
-| Deflection Location | <img width="350" alt="Round 1 Mid Mesh Displacement " src="https://github.com/user-attachments/assets/9274daad-fcf5-41a0-870e-2e3da6924186" /> | <img width="350"  alt="Round 1 Fine Mesh Displacement " src="https://github.com/user-attachments/assets/79cdfbc2-6f4d-424a-ad7a-af49b7ad338e" />
-" /> |
+| Max Stress (MPa) | 3.84 MPa | 4.22 MPa |
+| Stress Location | <img width="350" alt="Round 2 Mid Mesh Stress" src="https://github.com/user-attachments/assets/d72bb7b0-08fa-46ea-bb3b-38009ff5b662" /> | <img width="350" alt="Round 2 Fine Mesh Stress" src="https://github.com/user-attachments/assets/e5b10ea3-0e6c-47eb-a6f9-8296de0786f9" /> |
+| Max Deflection (in) | 3.46e-5 in | 3.45e-5 in |
+| Deflection Location | <img width="350" alt="Round 2 Mid Mesh Displacement" src="https://github.com/user-attachments/assets/29dafa78-8495-45f5-b6c9-cfac8dfc317b" /> | <img width="350" alt="Round 2 Fine Mesh Displacement" src="https://github.com/user-attachments/assets/e179ac4b-5d89-4732-9d63-f41ff0924298" /> |
 | Mass (lb) | 0.07lbs | 0.07lbs |
-| Minimum Safety Factor | 247.26 |197.81  |
+| Minimum Safety Factor | 215.10 |200.76  |
+
 
 ### Convergence Check: 
 I inputted all convergence values using this equation. 
