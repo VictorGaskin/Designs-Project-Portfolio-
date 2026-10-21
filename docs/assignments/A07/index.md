@@ -113,6 +113,33 @@ Results: Significantly more accuracy between deflection and stress convergence w
 
 *Note: These values did not deviate by greater than 0.1% with repeated testing.* 
 
+Takeaway:
+
+Within this project, I learned how different mesh sizes can change accuracy within a FEA model. Finer meshes will help to get more accurate results, but are more taxing on your computer. I now view FEA as equal parts an analysis tool and simulation took. I was also able to learn how to adjust the mesh density in Solidworks(it was embedded strangely in the GUI). This assignment improved my understanding of simulation designs it's engineering applications.
+
+This portion of the assignment took 5 hours to complete. 
+
+Fastening Plane FEA
+This first run was to test the starting parameters 
+
+### FEA Round 1
+| Parameter | FEA 1 (Coarse) | FEA 1 (Fine) |
+|:--|:--:|:--:|
+| Max Stress (MPa) | 56.05 MPa | 59.54 MPa |
+| Stress Location | <img width="350" alt="Exp1 Stress Med Mesh Fasten" src="https://github.com/user-attachments/assets/364e62a0-5ac1-4c41-886c-e87c9bb83d68" /> | <img width="350" alt="Exp1 Stress Fine Mesh Fasten" src="https://github.com/user-attachments/assets/41c58796-ee97-48b9-ad78-c182d597dec3" /> |
+| Max Deflection (in) | 7.826e-5 in | 7.799e-5 in |
+| Deflection Location | <img width="350" alt="Exp1 Displacement Med Mesh Fasten" src="https://github.com/user-attachments/assets/94e83cf5-d710-4378-be76-5ba0c7f51a34" /> | <img width="350" alt="Exp1 Displacement Fine Mesh Fasten" src="https://github.com/user-attachments/assets/536e64cd-8fde-4ff0-b9b2-45651bc71523" /> |
+| Mass (lb) | 0.07 lb | 0.07 lb |
+| Lowest Safety Factor | 14.76 | 13.86 |
+
+#### Convergence Results (Fine Mesh)
+| Metric | Convergence |
+|:--|:--:|
+| Deflections | 0.346% |
+| Stresses | 6.039% |
+| Factor of Safety (FOS) | 6.289% |
+
+Results: The results of this initial FEA was satisfactory, the goal for the next simulation is to increase the values for Factor of Safety and decrease the maximum stresses and deflections. 
 
 
 ## Decide
