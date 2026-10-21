@@ -129,8 +129,10 @@ This first run was to test the starting parameters
 | Stress Location | <img width="350" alt="Exp1 Stress Med Mesh Fasten" src="https://github.com/user-attachments/assets/364e62a0-5ac1-4c41-886c-e87c9bb83d68" /> | <img width="350" alt="Exp1 Stress Fine Mesh Fasten" src="https://github.com/user-attachments/assets/41c58796-ee97-48b9-ad78-c182d597dec3" /> |
 | Max Deflection (in) | 7.826e-5 in | 7.799e-5 in |
 | Deflection Location | <img width="350" alt="Exp1 Displacement Med Mesh Fasten" src="https://github.com/user-attachments/assets/94e83cf5-d710-4378-be76-5ba0c7f51a34" /> | <img width="350" alt="Exp1 Displacement Fine Mesh Fasten" src="https://github.com/user-attachments/assets/536e64cd-8fde-4ff0-b9b2-45651bc71523" /> |
-| Mass (lb) | 0.07 lb | 0.07 lb |
+| Mass (lb) | 0.0096lb | 0.0096 lb |
 | Lowest Safety Factor | 14.76 | 13.86 |
+
+note: The mass was so minuscule that SolidWorks only reads up to two decimals, I used the volume of 0.06 in^3 to calculate mass here. 
 
 #### Convergence Results (Fine Mesh)
 | Metric | Convergence |
@@ -141,7 +143,33 @@ This first run was to test the starting parameters
 
 Results: The results of this initial FEA was satisfactory, the goal for the next simulation is to increase the values for Factor of Safety and decrease the maximum stresses and deflections. 
 
+Round 2: 
 
+The goal for the second round was to increase the factor of safety as well as decrease the maximum stress and deflection.
+
+I doubled the thickness of the initial extrusion to attempt to achieve this. 
+<img width="1500" height="1200" alt="PreExp 2 Increase Thickness " src="https://github.com/user-attachments/assets/420b5ee2-5e13-4537-ab18-3320c70c5d17" />
+
+### FEA Round 2
+| Parameter | FEA 2 (Coarse) | FEA 2 (Fine) |
+|:--|:--:|:--:|
+| Max Stress (MPa) | 26.67 MPa | 33.61 MPa |
+| Stress Location | <img width="350" alt="Exp2 Med Mesh Stress" src="https://github.com/user-attachments/assets/6d856a0b-78ea-4627-a564-fadf1cedeb32" /> | <img width="350" alt="Exp2 Fine Mesh Stress" src="https://github.com/user-attachments/assets/016bce50-56e0-452f-afcd-14ccd7cfc639" /> |
+| Max Deflection (in) | 3.626e-5 in | 3.362e-5 in |
+| Deflection Location | <img width="350" alt="Exp2 Med Mesh Displacement Fasten" src="https://github.com/user-attachments/assets/697c15fb-b262-49ca-96b2-137c1328f86b" /> | <img width="350" alt="Exp2 Fine Mesh Displacement" src="https://github.com/user-attachments/assets/6333e075-04d6-40ab-839d-21be53c14488" /> |
+| Mass (lb) | 0.0192 lb | 0.0192 lb |
+| Lowest Safety Factor | 31.02 | 24.61 |
+
+#### Convergence Results (Fine Mesh)
+| Metric | Convergence |
+|:--|:--:|
+| Deflections | 7.556% |
+| Stresses | 23.026% |
+| Factor of Safety (FOS) | 23.045% |
+
+Results: Overall doubling the thickness of the fastening plane did yield positive results, but threw off the ranges of the stresses, deflections, and factors of safetly. Despite this, even the highest ranges of these values are still less than the trial before. 
+
+This FEA analysis has been successful 
 ## Decide
 
 
