@@ -2,6 +2,7 @@
 
 ## Objective
 
+The objective of this assignment was to design a Pulley System while accounting for belt, bearing, and frame parameters. 
 
 ## Analyze
 
@@ -38,12 +39,17 @@ Through these calculations I found the minimum shaft diameter to be 0.1479in
 
 **Journal Bearing Design** 
 
+For the journal bearing, I utilized the equations found in the Machinery's Handbook(Pg 2240) to find the appropriate linear velocity, pressure, and PV ratings. 
+
+After the calculations, I matched the PV against the chart provided on Page 2242 of the Machinery's Handbook. 
+
 <img width="1232" height="932" alt="image" src="https://github.com/user-attachments/assets/93b251d7-4a7e-4e16-ba82-0c51cee514ff" />
 
 
 <img width="890" height="785" alt="image" src="https://github.com/user-attachments/assets/bee4f41f-43f6-4464-bdd9-c7497bd04d23" />
 
   *Material Considerations for Journal Bearing*
+  
   - Graphite was chosen because it had a more than satisfactory PV rating while remaining very inexpensive design wise
 
 **Frame Design**
@@ -56,7 +62,13 @@ I eventually chose PEEK as it is creep resistant, heat resistant, and pressure r
 
 <img width="1332" height="1022" alt="image" src="https://github.com/user-attachments/assets/b523bbba-2867-4fc8-b6f9-dd4858084236" />
 
+Reflection: 
 
+This assignment further instilled how the design process needs to be multi-faceted, especially when it comes to choosing a material to design a critical part from. 
+
+This assignment also taught me how to design a rudimentary pulley system as well as teaching me how pulleys work. 
+
+This assignment took me about 5 hours to complete. 
 
 ## Decide
 
