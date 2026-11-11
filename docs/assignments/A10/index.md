@@ -4,6 +4,7 @@
 The objective of this assignment was to analzye and a design and model a leadscrew alongside other components in order to create a analogue tensile loader than could consistantly measure 2kN forces. 
 
 ## Analyze
+
 ### LeadScrew Design: Victor Gaskin
 The minimum dimensions for the leadscrew was found by applying the safety factor(4) to the yield strength of the stainless steel leadscrew(205 MPa) Each of the two screws supports a 1 kN design load, requiring
 a minimum core diameter of 4.98 mm. 
@@ -68,7 +69,7 @@ This design achieves safe operation, minimal deflection, and streamlined assembl
 | 3487N294 | 1 | Force Sensor | $1,034.12 | $1,034.12 | https://www.mcmaster.com/3487N294/ |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-|  |  |  | Total Cost: |  |  |
+|  |  |  | Total Cost: | $3681.22 |  |
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
