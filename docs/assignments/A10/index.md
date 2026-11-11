@@ -7,6 +7,7 @@ The objective of this assignment was to analzye and a design and model a leadscr
 ### LeadScrew Design: Victor Gaskin
 The minimum dimensions for the leadscrew was found by applying the safety factor(4) to the yield strength of the stainless steel leadscrew(205 MPa) Each of the two screws supports a 1 kN design load, requiring
 a minimum core diameter of 4.98 mm. 
+
 <img width="768" height="1024" alt="image" src="https://github.com/user-attachments/assets/926a3e4e-01ac-4868-87e9-7f3936fa6501" />
 
 The 3/8"‑12 Thread Acme stainless steel lead screw (McMaster‑Carr 95061A813) was selected because its root diameter of  7.5 mm more than satisfies the minimum diameter requirement. 
@@ -25,11 +26,13 @@ the 2 kN tensile load.
 
 ### Nut Design: Victor Gaskin
 
-A 932 bearing‑bronze Acme flange nut (McMaster‑Carr 95120A592) was chosen to pair with the
-3/8‑12 lead screw due to the results of the calculations. The nut’s 25 mm thread
-engagement provides approximately 12 engaged threads, distributing the 2 kN load evenly. This provides a considerable factor of safety as only about 4 engaged threads would be been required in order to properly distribute this load
+Through the choice of the leadscrew, I assumed a nut of a similar diameter to the leadscrew would have to be chosen. 
+
+The nut’s 25 mm thread engagement provides approximately 12 engaged threads, distributing the 2 kN load evenly. This provides a considerable factor of safety as only about 4 engaged threads would be been required in order to properly distribute this load
 
 The forces sustained on the bearing utilizing the bending stress equation reaches about 8 MPa, which is considerably below 932 Bearing Bronze's Yield Strength of 105 MPa. This ensures that these nuts can be properly loaded and considerably overloaded without risk of failure.
+
+A 932 bearing‑bronze Acme flange nut (McMaster‑Carr 95120A592) was chosen to pair with the 3/8‑12 lead screw due to the results of the calculations. 
 
 <img width="768" height="1024" alt="image" src="https://github.com/user-attachments/assets/fd010587-d8fd-4c14-9b9e-31dfa96deba9" />
 
@@ -52,6 +55,16 @@ This design achieves safe operation, minimal deflection, and streamlined assembl
 
 <img width="725" height="270" alt="image" src="https://github.com/user-attachments/assets/a17d9150-32c8-4fe4-affc-c8c17c17f70a" />
 
+
+### Table 
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+|:-----------:|:--------:|:----:|:---------:|:----:|:-------------:|
+| 1 | 2 | 18-8 Stainless Steel Acme Lead Screw | $64.53 | $129.06 | [Lead Screw]( https://www.mcmaster.com/95061A813/) |
+| 2 | 2 | 932 Bearing Bronze Acme Flange Nut | $111.78 | $223.56 | [Bronze Nut](https://www.mcmaster.com/95120A592/) |
+| 3 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
+| 4 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
+| 5 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
+| | | | | **Total Cost** | **$0.00** |
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
