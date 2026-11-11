@@ -58,13 +58,18 @@ This design achieves safe operation, minimal deflection, and streamlined assembl
 
 ### Table 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
-|:-----------:|:--------:|:----:|:---------:|:----:|:-------------:|
-| 1 | 2 | 18-8 Stainless Steel Acme Lead Screw | $64.53 | $129.06 | [Lead Screw]( https://www.mcmaster.com/95061A813/) |
-| 2 | 2 | 932 Bearing Bronze Acme Flange Nut | $111.78 | $223.56 | [Bronze Nut](https://www.mcmaster.com/95120A592/) |
-| 3 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
-| 4 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
-| 5 | 1 | x | $0.00 | $0.00 | [www.xx.com](https://www.xx.com) |
-| | | | | **Total Cost** | **$0.00** |
+| -------- | :-------: | :-------: | :-------: | :-------: | :-------: | 
+| 95120A592 | 2 | 932 Bearing Bronze Acme Flange Nut | $111.78 | $223.56 | https://www.mcmaster.com/product/95120A592 |
+| 95061A813 | 2 | 18-8 Stainless Steel Acme Lead Screw | $64.53 | $129.06 | https://www.mcmaster.com/product/95061A813 |
+| 47065T107 | 2 | T-Slotted Framing 3ft | $29.86 | $59.72 | https://www.mcmaster.com/47065T107-47065T419/ |
+| 47065T107 | 4 | T-Slotted Framing 1ft | $10.82  | $43.28 | https://www.mcmaster.com/47065T107-47065T418/ |
+| 47065T255 | 4 | Silver Straight Surface Bracket | $10.16 | $40.64 | https://www.mcmaster.com/47065T255/ |
+| 60755K12 | 4 | Lead and Ball Screw End Support | $796.24 | $3184.96 | https://www.mcmaster.com/60755K12/ | 
+| 3487N294 | 1 | Force Sensor | $1,034.12 | $1,034.12 | https://www.mcmaster.com/3487N294/ |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  | Total Cost: |  |  |
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
