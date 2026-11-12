@@ -161,7 +161,7 @@ I also added in a force tester to see how it would fit in. The CAD file came wit
 
 The only thing I wasn't able to add to the tensile tester assembly were small bench vises that I found that would be used to hold the sample as these did not have CAD files. Two of these bench vises would be needed. One would connect to the crosshead and the other would connect to the load cell.
 
-![TensileTesterCAD25](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD24.png)
+![TensileTesterCAD25](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD25.png)
 
 With this, the tensile tester was complete.
 
@@ -170,13 +170,13 @@ With this, the tensile tester was complete.
 
 The next step was to perform Finite Element Analysis on the crosshead. I used the free Solidworks Simulation Xpress tool to evaluate the crosshead. For the analysis, I made the two outer holes be fixed in place and the inner hole have a downward pointing force of 2000 newtons. Two iterations with different mesh densities were performed and checked for convergence using the equation: 2|(xf-xi)|/(xf+xi) * 100. Where xi is the initial measurement and xf is the final measurement.
 
-![CrossheadFEA1](CrossheadFEA1.png)
+![CrossheadFEA1](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA1.png)
 
-![CrossheadFEA2](CrossheadFEA2.png)
+![CrossheadFEA2](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA2.png)
 
-![CrossheadFEA3](CrossheadFEA3.png)
+![CrossheadFEA3](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA3.png)
 
-![CrossheadFEA4](CrossheadFEA4.png)
+![CrossheadFEA4](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA4.png)
 
 **Convergence: > 7%**
 
@@ -187,7 +187,7 @@ The next step was to perform Finite Element Analysis on the crosshead. I used th
 | Stress: 206.807e^8 N/mm^2  | 5.463e^7 N/mm^2 | 5.551e^7 N/mm^2 | 1.5979% | Converged |
 | Displacement: 0.1 mm  | 1.329e^-2 mm | 1.336e^2 mm | 0.5253% | Converged | |
 | Safety Factor: 4  | 3.78568 | 3.7256 | 1.5997% | Converged |
-| ----- | <img width="320" height="188" alt="CrossheadFEA8" title="Stress" src="CrossheadFEA8.png" /> Stress | <img width="320" height="188" alt="CrossheadFEA7" title="Displacement" src="CrossheadFEA7.png" /> Displacement | <img width="320" height="188" alt="CrossheadFEA5" title="Safety Factor" src="CrossheadFEA5.png" /> Safety Factor | ----- |
+| ----- | <img width="320" height="188" alt="CrossheadFEA8" title="Stress" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA8.png" /> Stress | <img width="320" height="188" alt="CrossheadFEA7" title="Displacement" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA7.png" /> Displacement | <img width="320" height="188" alt="CrossheadFEA5" title="Safety Factor" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA5.png" /> Safety Factor | ----- |
 
 
 
@@ -197,9 +197,9 @@ Iteration 1 Mass: 1.69 pounds
 
 For the first iteration, the only parameter that was not below the desired value was the safety factor. To rectify this, an extra 5 mm was added to each side of the crosshead.
 
-![CrossheadFEA15](CrossheadFEA15.png)
+![CrossheadFEA15](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA15.png)
 
-![CrossheadFEA16](CrossheadFEA16.png)
+![CrossheadFEA16](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA16.png)
 
 **Second Iteration** (5 mm added to length, base, and height):
 
@@ -208,7 +208,7 @@ For the first iteration, the only parameter that was not below the desired value
 | Stress: 206.807e^8 N/mm^2  | 2.874e^7 N/mm^2 | 3.015e^7 N/mm^2 | 4.7886% | Converged |
 | Displacement: 0.1 mm  | 6.530e^-3 mm | 6.381e^2 mm | 2.3081% | Converged |
 | Safety Factor: 4  | 7.19514 | 6.85999 | 4.7691% | Converged | 
-| ----- | <img width="320" height="188" alt="CrossheadFEA19" title="Stress" src="CrossheadFEA19.png" /> Stress | <img width="320" height="188" alt="CrossheadFEA17" title="Displacement" src="CrossheadFEA17.png" /> Displacement | <img width="320" height="188" alt="CrossheadFEA18" title="Safety Factor" src="CrossheadFEA18.png" /> Safety Factor | ----- |
+| ----- | <img width="320" height="188" alt="CrossheadFEA19" title="Stress" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA19.png" /> Stress | <img width="320" height="188" alt="CrossheadFEA17" title="Displacement" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA17.png" /> Displacement | <img width="320" height="188" alt="CrossheadFEA18" title="Safety Factor" src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadFEA18.png" /> Safety Factor | ----- |
 
 
 Iteration 2 Mass: 2.617 pounds
@@ -219,7 +219,7 @@ The second iteration converged well below every parameter. The extra 5 mm made t
 
 A drawing of the final crosshead design was created. The holes were toleranced using an RC2 running sliding fit for the lead screw that would be running through it.
 
-<iframe src="A10Crosshead2.pdf" width="100%" height="650px" type="application/pdf">
+<iframe src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.pdf" width="100%" height="650px" type="application/pdf">
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
@@ -247,9 +247,9 @@ This assignment was very interesting and fun. It was a real test of my ability t
 
 ### Solidworks CAD File Downloads
 
-[Crosshead Download](A10Crosshead2.SLDPRT)
+[Crosshead Download](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.SLDPRT)
 
-[Tensile Tester Assembly Download](TensileTesterAssem3.SLDASM)
+[Tensile Tester Assembly Download](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterAssem3.SLDASM)
 
 
 ### Resources
