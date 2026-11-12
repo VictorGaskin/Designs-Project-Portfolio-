@@ -95,21 +95,21 @@ Using the calculated parameters for the lead screws and crosshead, I began model
 
 The crosshead was fairly simple to model, just an extruded rectangular prism with three holes cut out of it. In the parametric equations, the only change I needed to make was to increase the hole size from 8mm to 0.375 inches to support the diameter of the lead screw.
 
-![CrossheadCAD7](CrossheadCAD7.png)
+![CrossheadCAD7](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD7.png)
 
-![CrossheadCAD4](CrossheadCAD4.png)
+![CrossheadCAD4](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD4.png)
 
-![CrossheadCAD5](CrossheadCAD5.png)
+![CrossheadCAD5](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD5.png)
 
-![CrossheadCAD9](CrossheadCAD9.png)
+![CrossheadCAD9](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD9.png)
 
-![CrossheadCAD10](CrossheadCAD10.png)
+![CrossheadCAD10](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD10.png)
 
 For the material, Solidworks didn't have 301 stainless steel as an option. Instead, I searched for the next closest steel with nearly the same properties. The steel I found was wrought stainless steel which has a yield strength of 206 MPa and an elastic modulus of 200,000 MPa. This was slightly above the original yield strength and elastic modulus of 205 and 193,000 MPa respectively.
 
-![CrossheadCAD11](CrossheadCAD11.png)
+![CrossheadCAD11](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD11.png)
 
-![CrossheadCAD12](CrossheadCAD12.png)
+![CrossheadCAD12](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/CrossheadCAD12.png)
 
 With the crosshead modeled, I had a starting point for the rest of the tensile tester.
 
@@ -119,49 +119,49 @@ With the crosshead modeled, I had a starting point for the rest of the tensile t
 For the tensile tester, I started with a basic frame using the CAD files from the McMaster website. However, the frame I initially created was too small for the lead screw and I had to get a new length of channel.
 
 
-![TensileTesterCAD4](TensileTesterCAD4.png)
+![TensileTesterCAD4](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD4.png)
 
-![TensileTesterCAD1](TensileTesterCAD1.png)
+![TensileTesterCAD1](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD1.png)
 
-![TensileTesterCAD5](TensileTesterCAD5.png)
+![TensileTesterCAD5](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD5.png)
 
 I then went ahead and got the lead screws and lead screw bases in so that I could add in the crosshead and get an idea of how wide the structure was going to be. I would use the crosshead to center the lead screws and internal assembly relative to the outer frame.
 
-![TensileTesterCAD7](TensileTesterCAD7.png)
+![TensileTesterCAD7](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD7.png)
 
-![TensileTesterCAD8](TensileTesterCAD8.png)
+![TensileTesterCAD8](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD8.png)
 
-![TensileTesterCAD9](TensileTesterCAD9.png)
+![TensileTesterCAD9](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD9.png)
 
 For the flange nuts, I created a special mate to give the lead screw and nuts a screw connection. This meant the flange nuts could move up and down the lead screws and the lead screws would visually spin on the assembly. 
 
-![TensileTesterCAD10](TensileTesterCAD10.png)
+![TensileTesterCAD10](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD10.png)
 
-![TensileTesterCAD11](TensileTesterCAD11.png)
+![TensileTesterCAD11](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD11.png)
 
 Next, I added in the side channels and brackets that would hold the channels together.
 
-![TensileTesterCAD12](TensileTesterCAD12.png)
+![TensileTesterCAD12](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD12.png)
 
-![TensileTesterCAD15](TensileTesterCAD15.png)
+![TensileTesterCAD15](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD15.png)
 
-![TensileTesterCAD16](TensileTesterCAD16.png)
+![TensileTesterCAD16](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD16.png)
 
 Finally I added on channels that the tensile tester would stand on and replaced the bottom square brackets with corner brackets.
 
-![TensileTesterCAD20](TensileTesterCAD20.png)
+![TensileTesterCAD20](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD20.png)
 
 I also added in a force tester to see how it would fit in. The CAD file came with additional parts that I needed to remove to just get the load cell on its own. 
 
-![TensileTesterCAD21](TensileTesterCAD21.png)
+![TensileTesterCAD21](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD21.png)
 
-![TensileTesterCAD23](TensileTesterCAD23.png)
+![TensileTesterCAD23](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD23.png)
 
-![TensileTesterCAD24](TensileTesterCAD24.png)
+![TensileTesterCAD24](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD24.png)
 
 The only thing I wasn't able to add to the tensile tester assembly were small bench vises that I found that would be used to hold the sample as these did not have CAD files. Two of these bench vises would be needed. One would connect to the crosshead and the other would connect to the load cell.
 
-![TensileTesterCAD25](TensileTesterCAD25.png)
+![TensileTesterCAD25](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterCAD24.png)
 
 With this, the tensile tester was complete.
 
