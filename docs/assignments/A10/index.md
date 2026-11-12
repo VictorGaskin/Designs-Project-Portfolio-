@@ -219,10 +219,8 @@ The second iteration converged well below every parameter. The extra 5 mm made t
 
 A drawing of the final crosshead design was created. The holes were toleranced using an RC2 running sliding fit for the lead screw that would be running through it.
 
-<iframe src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.pdf" width="100%" height="650px" type="application/pdf">
-  <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
-</iframe>
-
+<iframe src="https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.pdf" width="100%" height="650px">
+ 
 
 ### Cost Table
 
