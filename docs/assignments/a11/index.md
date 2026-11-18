@@ -19,7 +19,9 @@ The aditional torque that this Gearmotor provides above the calculations would b
 
 The provided Speed-Torque Chart helped verify this decsion: 
 
-<img width="762" height="569" alt="image" src="https://github.com/user-attachments/assets/2883b309-32c1-427b-92c9-dda60f44eb50" />
+<img width="1250" height="947" alt="image" src="https://github.com/user-attachments/assets/40e6ac0f-a9f5-42a1-b755-d25a38faa2f0" />
+
+
 
 Motor Dimensions: 
 Length: 3.5"
@@ -57,7 +59,8 @@ These calculations would assist me in choosing a coupler:
 
 (Note, the diameter of the larger entrance hole, which is where the leadscrew would be inserted into, was the driving diameter.) 
 
-After the calculations, 
+<img width="933" height="1280" alt="image" src="https://github.com/user-attachments/assets/7f56a662-d06b-453a-a8d9-334ae7e47e89" />
+
 ## Analyze
 
 
