@@ -1,7 +1,7 @@
 # A11 – Motor Selection
 The purpose of this assignment is to continue upon the leadscrew project to select and spec a proper motor for the strain gauge. This includes frame design and bearing design, ensuring the crosshead moves smoothly under designed torque and loads. 
 
-## Objective
+## Objective 
 
 ### Motor Selection: Victor Gaskin 
 
