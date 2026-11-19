@@ -196,21 +196,21 @@ For the next FEA section, the part that was being used for the sides of the tens
 
 **Assembly Drawing with Bill of Materials**
 
-<iframe src="TensileTesterAssem-A11-4.pdf" width="100%" height="650px" type="application/pdf">
+<iframe src=https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterAssem-A11-4.pdf>
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
 
 **Motor Mount Drawing**
 
-<iframe src="MotorMount2.pdf" width="100%" height="650px" type="application/pdf">
+<iframe src=https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/MotorMount2.pdf>
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
 
 **Crosshead Drawing**
 
-<iframe src="A10Crosshead2.pdf" width="100%" height="650px" type="application/pdf">
+<iframe src=https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.pdf>
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
@@ -238,11 +238,11 @@ Overall this project helped me understand how to carry calculations onward and t
 
 ### CAD File Downloads
 
-[Tensile Tester Assembly Downlaod](TensileTesterAssem-A11-4.SLDASM)
+[Tensile Tester Assembly Downlaod](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/TensileTesterAssem-A11-4.SLDASM)
 
-[Motor Mount Download](MotorMount2.SLDPRT)
+[Motor Mount Download](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/MotorMount2.SLDPRT)
 
-[Crosshead Download](A10Crosshead2.SLDPRT)
+[Crosshead Download](https://github.com/VictorGaskin/Designs-Project-Portfolio-/blob/main/A10Crosshead2.SLDPRT)
 
 
 ## Resources
